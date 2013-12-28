@@ -23,7 +23,7 @@ forward('activity');
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-  	<title>Sliding Login Panel with jQuery 1.3.2</title>
+  	<title>Butterfly Theme</title>
   	<meta name="description" content="Demo of a Sliding Login Panel using jQuery 1.3.2" />
   	<meta name="keywords" content="jquery, sliding, toggle, slideUp, slideDown, login, login form, register" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />	
@@ -109,12 +109,12 @@ $token = generate_action_token($ts);
 	</div> <!-- / top -->
 	
 </div> <!--panel -->
-<?php 
+<!--<?php 
 
-echo elgg_view('page/elements/messages', array('object' => $_SESSION['msg']));
-unset($_SESSION['msg']);
+//echo elgg_view('page/elements/messages', array('object' => $_SESSION['msg']));
+//unset($_SESSION['msg']);
 
-?>
+?>-->
     
 </body>
 </html>

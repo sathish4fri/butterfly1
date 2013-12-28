@@ -4,7 +4,7 @@ function butterfly_init() {
     // Extend system CSS with our own styles
     
 	elgg_extend_view('page/elements/elgg','page/elements/header_logo');
-	
+	elgg_extend_view('page/elements/elgg','page/elements/header');
 
 	 elgg_extend_view('css/elements/elgg','css/elements/layout');
 	 elgg_extend_view('css/elements/elgg','css/elements/navigation');
@@ -15,6 +15,7 @@ function butterfly_init() {
 	//		'name' => 'messages',
 	//		
 	//	));
+   
 
 	elgg_extend_view('page/elements/elgg','page/elements/walled_garden');
 	

@@ -37,15 +37,15 @@
 
 /***** TOPBAR ******/
 .elgg-page-topbar {
-	background: #3d9db3;
-	border-bottom: 1px solid #3d9db3;
+	background:  #1C7E96 ;
+	border-bottom: 1px solid #1C7E96;
 	position: relative;
 	height: 24px;
 	z-index: 9000;
 	
 }
 .elgg-page-topbar > .elgg-inner {
-	padding: 20px 20px;
+	padding: 1px 20px;
 }
 
 /***** PAGE MESSAGES ******/
@@ -66,7 +66,7 @@
 /***** PAGE HEADER ******/
 .elgg-page-header {
 	position: relative;
-	background: #3d9db3 url(<?php echo elgg_get_site_url(); ?>_graphics/header_shadow.png) repeat-x bottom left;
+background: -moz-linear-gradient(top, rgba(28,126,150,1) 0%, rgba(28,126,150,0.96) 12%, rgba(117,189,209,0.88) 40%, rgba(107,166,206,0.86) 47%, rgba(76,98,196,0.86) 68%, rgba(76,98,196,0.85) 89%, rgba(76,98,196,1) 100%);  url(<?php echo elgg_get_site_url(); ?>_graphics/header_shadow.png) repeat-x bottom left;
 }
 .elgg-page-header > .elgg-inner {
 	position: relative;
@@ -80,8 +80,8 @@
 	background: transparent url(<?php echo elgg_get_site_url(); ?>_graphics/sidebar_background.gif) repeat-y right top;
 }
 .elgg-layout-two-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>_graphics/two_sidebar_background.gif) repeat-y right top;
-}
+	background: transparent url(<?php echo elgg_get_site_url();  ?>/mod/butterfly/images/colbg.png) repeat-y left top; 
+	}
 .elgg-layout-error {
 	margin-top: 20px;
 }

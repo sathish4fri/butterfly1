@@ -7,14 +7,13 @@
  */
 ?>
 	
-
 <?php
-echo elgg_view_menu('extras', array(
-	'sort_by' => 'priority',
-	'class' => 'elgg-menu-hz',
-));
+//echo elgg_view_menu('extras', array(
+	//'sort_by' => 'priority',
+	//'class' => 'elgg-menu-hz',
+//));
 
-if (elgg_is_logged_in()) {
+/*if (elgg_is_logged_in()) {
 if ((elgg_get_context() == 'activity')) {
 
 
@@ -58,7 +57,7 @@ if ((elgg_get_context() == 'activity')) {
 	
 }
 }
-
+*/
 echo elgg_view('page/elements/owner_block', $vars);
 
 echo elgg_view_menu('page', array('sort_by' => 'name'));
